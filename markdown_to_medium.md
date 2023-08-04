@@ -10,9 +10,13 @@ Convert a markdown file for publication on the Medium platform.
 
 2. Create the integration token with Medium.
 
-    Visit [https://medium.com/me/settings](https://medium.com/me/settings) and in the Integration tokens section create the token that will be accessed by *mdium*.
+    Visit [https://medium.com/me/settings](https://medium.com/me/settings) and
+    in the Integration tokens section create the token that will be accessed by
+    *mdium*.
 
-3. Execute the command below to configure *mdium* with the token. The file ~/.mdium will be created, containing the token and the user ID.
+3. Execute the command below to configure *mdium* with the token.
+
+    The file ~/.mdium will be created, containing the token and the user ID.
 
     ```python
     mdium init <medium-token>
@@ -38,7 +42,10 @@ Convert a markdown file for publication on the Medium platform.
     Done! Your post has been published at https://medium.com/<user>/<article-id>
     ```
 
-Some markdown features cannot be converted to Medium, such as tables. In this case, the solution is to take a screenshot of the table, or convert it into an ASCII table like in this link. Another solution is to create a table in Airtable and post the sharing link on Medium.
+Some markdown features cannot be converted to Medium, such as tables. In this
+case, the solution is to take a screenshot of the table, or convert it into an
+ASCII table like in this link. Another solution is to create a table in Airtable
+and post the sharing link on Medium.
 
 ## References
 
