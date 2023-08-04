@@ -6,23 +6,7 @@ This repository contains the collection of my Medium blog posts. Each post is sa
 
 ## Structure
 
-.
-├── README.md
-└── posts
-├── data_science
-│ ├── post1.md
-│ ├── post2.md
-│ └── ...
-├── machine_learning
-│ ├── post1.md
-│ ├── post2.md
-│ └── ...
-└── english_learning
-├── post1.md
-├── post2.md
-└── ...
-
-The `posts` directory contains subdirectories for each topic I write about, such as `data_science`, `machine_learning`, and `english_learning`. Inside each of these directories are individual markdown files for each post.
+The `posts` directory contains subdirectories for each topic I write about, such as `data_science` or `machine_learning`. Inside each of these directories are individual markdown files for each post.
 
 ## How to Use
 
@@ -30,9 +14,9 @@ To read a post, simply navigate to the relevant directory and open the markdown 
 
 You can also clone the repository to your local machine for offline reading. Use the following command:
 
-'''
+```
 git clone https://github.com/hugosouto/medium_posts.git
-'''
+```
 
 ## Contribution
 
@@ -42,5 +26,5 @@ This repository is primarily for my own writings, so it is not currently accepti
 
 For any questions or comments, please create an issue on this GitHub repository or contact me at:
 
-- [https://www.linkedin.com/in/hugosouto/](LikedIn)
-- [https://medium.com/@hugosouto](Medium)
+- [Medium](https://medium.com/@hugosouto)
+- [LikedIn](https://www.linkedin.com/in/hugosouto/)
