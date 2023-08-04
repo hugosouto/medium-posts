@@ -1,47 +1,47 @@
-# Mardown para plataforma Medium
+# Markdown for Medium Platform
 
-Converta um arquivo markdown para ser publicado na plataforma Medium.
+Convert a markdown file for publication on the Medium platform.
 
-1. Instalar mdium.
+1. Install *mdium*.
 
     ```python
     pip install mdium
     ```
 
-2. Criar o token de integração com o Medium
+2. Create the integration token with Medium.
 
-    Acesse [https://medium.com/me/settings](https://medium.com/me/settings) e na seção Integration tokens crie o token que será acessado pelo mdium.
+    Visit [https://medium.com/me/settings](https://medium.com/me/settings) and in the Integration tokens section create the token that will be accessed by *mdium*.
 
-3. Executar o comando abaixo para configurar o mdium com o token. Será criado o arquivo ~/.mdium contendo o token e o ID di usuário.
+3. Execute the command below to configure *mdium* with the token. The file ~/.mdium will be created, containing the token and the user ID.
 
     ```python
-    mdium init <token-medium>
+    mdium init <medium-token>
     ```
 
-4. Modificar os arquivos mardown conforme o exemplo abaixo.
+4. Modify the markdown files according to the example below.
 
-    ```text
+    ```markdown
     ---
-    title: Titulo do artigo
-    tags: ['algumas', 'tags', 'do artigo']
+    title: Article title
+    tags: ['some', 'article', 'tags']
     status: draft
     ---
 
-    [Conteúdo markdown aqui.]
+    [Markdown content here.]
     ```
 
-5. Publicar o arquivo markdown para o Medium executando o comando abaixo.
+5. Publish the markdown file to Medium by executing the command below.
 
-    ```cmd
+    ```bash
     $ mdium publish path/to/markdown.md
     
-    Done! Your post has been published at https://medium.com/<usuario>/<id-artigo>
+    Done! Your post has been published at https://medium.com/<user>/<article-id>
     ```
 
-Alguns recursos do markdown não podem ser convertidos para o Medium, como por exemplo, tabelas. Neste caso, a solução é dar um print na tabela, ou converter em uma tabela ascii como neste link. Outra solução é criar uma tabela no Airtable e postar o link de compartilhamento no Medium.
+Some markdown features cannot be converted to Medium, such as tables. In this case, the solution is to take a screenshot of the table, or convert it into an ASCII table like in this link. Another solution is to create a table in Airtable and post the sharing link on Medium.
 
-## Referências
+## References
 
-[https://ajuda.gitlab.io/guia-rapido/markdown/markdown-to-medium/](https://ajuda.gitlab.io/guia-rapido/markdown/markdown-to-medium/)
+[https://help.gitlab.com/quick-start/markdown/markdown-to-medium/](https://help.gitlab.com/quick-start/markdown/markdown-to-medium/)
 
 [https://medium.com/@icyphox/mdium-publish-your-markdown-to-medium-from-the-cli-79906ef6b16b](https://medium.com/@icyphox/mdium-publish-your-markdown-to-medium-from-the-cli-79906ef6b16b)
