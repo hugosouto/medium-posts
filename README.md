@@ -14,7 +14,7 @@ To read a post, simply navigate to the relevant directory and open the markdown 
 
 You can also clone the repository to your local machine for offline reading. Use the following command:
 
-```
+```bash
 git clone https://github.com/hugosouto/medium_posts.git
 ```
 
