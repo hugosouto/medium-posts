@@ -1,7 +1,7 @@
 # Medium Posts Repository
 
 <p align="center">
-    <img src="https://miro.medium.com/v2/resize:fit:800/1*Ra88BZ-CSTovFS2ZSURBgg.png" alt="Medium Posts Repository" style="display: block; padding: 1px 1px; background-color: white; margin: 0 auto">
+    <img src="https://miro.medium.com/v2/resize:fit:830/1*Ra88BZ-CSTovFS2ZSURBgg.png" alt="Medium Posts Repository" style="display: block; padding: 1px 1px; background-color: white; margin: 0 0">
 </p>
 
 ## Overview
