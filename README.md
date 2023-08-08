@@ -47,4 +47,4 @@ For any questions or comments, please create an issue on this GitHub repository 
 contact me at:
 
 - [Medium](https://medium.com/@hugosouto)
-- [LikedIn](https://www.linkedin.com/in/hugosouto/)
+- [LikedIn](https://www.linkedin.com/in/hsouto/)
