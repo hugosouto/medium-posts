@@ -155,4 +155,4 @@ cython_debug/
 *.markdownlint.json
 
 # Specific to roject
-drafts
+drafts/*
